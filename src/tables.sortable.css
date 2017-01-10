@@ -4,26 +4,11 @@
 .tablesaw-sortable thead tr th {
 	position: relative;
 }
-.tablesaw-sortable thead tr th {
-	padding-right: 1.6em;
-	vertical-align: top;
-}
-.tablesaw-sortable th.tablesaw-sortable-head,
-.tablesaw-sortable tr:first-child th.tablesaw-sortable-head {
-	padding: 0;
-}
-.tablesaw-sortable th.tablesaw-sortable-head button {
-	padding-top: .9em;
-	padding-bottom: .7em;
-	padding-left: .6em;
-	padding-right: 1.6em;
-}
 .tablesaw-sortable .tablesaw-sortable-head button {
 	min-width: 100%;
 	color: inherit;
 	background: transparent;
 	border: 0;
-	padding: 0;
 	text-align: left;
 	font: inherit;
 	text-transform: inherit;
@@ -43,7 +28,6 @@
 .tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-descending button:after {
 	content: "\2193";
 }
-
 .tablesaw-sortable .not-applicable:after {
 	content: "--";
 	display: block;
